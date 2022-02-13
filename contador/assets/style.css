@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(127, 255, 212, 0.74);
+}
+.title {
+  text-align: center;
+  margin-bottom: 4rem;
+  font-size: 3rem;
+  font-family: monospace;
+}
+.mais {
+  font-size: 5rem;
+  width: 5rem;
+  border-radius: 50% 0 0 50%;
+}
+.mais:hover {
+  background-color: rgba(0, 128, 0, 0.829);
+}
+.menos {
+  font-size: 5rem;
+  width: 5rem;
+  border-radius: 0 50% 50% 0;
+}
+.menos:hover {
+  background-color: rgba(255, 0, 0, 0.836);
+}
+.contador {
+  font-size: 5rem;
+  margin: 2rem;
+}
